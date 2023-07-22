@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    gap: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    font-size: 62.5%
+}
+.circle{
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 2.4rem;
+    background-color: black;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    z-index: 10;
+}
+
+/* header section */
+
+.left-logo img {
+    width: 125px;
+}
+
+.head::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    background: url(images/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+    isolation: isolate;
+    /* isolation property create a new stack content */
+}
+
+.right-navbar ul {
+    font-size: 20px;
+
+}
+
+.right-navbar li a {
+    color: aliceblue;
+}
+
+.right-navbar {
+    margin-top: 30px;
+    margin-right: 50px;
+
+}
+
+.left-logo {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    margin-left: 17%;
+    gap: 10px;
+
+
+}
+
+.btn {
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white !important;
+    background-color: rgb(192, 60, 60);
+    max-width: 130px;
+}
+
+.btn:hover {
+    /* background-color: rgb(198, 127, 127); */
+    background-color: rgb(206, 116, 116);
+    /* border: 1px solid red; */
+}
+
+.right-navbar li a:hover {
+    color: rgb(192, 60, 60);
+}
+
+
+
+
+
+/* section-1 */
+
+.sec-1 {
+    margin-top: 50px;
+
+}
+
+.sec-1 h1 a {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    height: 500px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.card-area {
+    width: 30%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 50px;
+}
+
+.card p {
+    /* margin-bottom: 20px; */
+}
+
+/* section 2 */
+
+.sec-2 {
+    margin-top: 70px;
+    height: 800px;
+}
+
+
+.sec-2 h1 a {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.content-area {
+    display: flex;
+    gap: 80px;
+}
+
+.left-content {
+    margin-left: 150px;
+    width: 45%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.left-content p {
+    font-size: 20px;
+}
+
+.right-content img {
+    border-radius: 6px;
+    height: 300px;
+    width: 400px;
+}
+
+.right-content {}
+
+/* section 3 */
+.sec-3 {
+    margin-top: 50px;
+    background-color: rgb(200, 198, 198);
+}
+
+.sec-3 h1 a {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    /* border: 2px solid gray; */
+    margin: auto;
+    max-width: 800px;
+}
+
+.about p {
+    /* text-align: center; */
+    word-spacing: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(92, 92, 93);
+}
+
+/* footer */
+.foot {
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    color: aliceblue;
+    background-color: rgb(54, 54, 182);
+}
+
+.first-foot {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.second-foot {
+    text-align: center;
+    margin: 10px;
+}
